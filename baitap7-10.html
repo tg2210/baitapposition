@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display:flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 50px;
+    z-index: 1000; 
+}
+.menu-red{
+    background-color: #ff4500; 
+    width: 15%;
+    height: 50px;
+}
+
+.menu-yellow {
+    background-color: #a29d3a; 
+    width: 5%;
+    height: 50px;
+}
+
+.menu-center {
+    background-color: #808080; 
+    flex-grow: 1;
+    height: 50px;
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #808080;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 40px; 
+    left: 0; 
+    flex-direction: column;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f14d;
+}
+.show {
+    display: block;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+
+}
+
+.menu ul li {
+    position: relative;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.menu ul li a:hover {
+    background-color: #a29d3a;
+}
+
+.content {
+    margin-top: 10px; 
+    padding: 10px;
+}
+
+.content p {
+    line-height: 1.6;
+}
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-red"></div> 
+        <div class="menu-yellow"></div> 
+        <div class="menu-center">
+        <ul>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Sản phẩm</a>
+                <div class="dropdown-content">
+                    <a href="#">Áo khoác</a>
+                    <a href="#">Túi xách</a>
+                    <a href="#">Đầm công sở</a>
+                </div>
+            </li>
+            <li><a href="#">Bộ sưu tập</a></li>
+            <li><a href="#">Showroom</a></li>
+            <li><a href="#">Độc quyền tháng 10</a></li>
+        </ul>
+    </div>
+    <div class="menu-yellow"></div> 
+    <div class="menu-red"></div>
+    </div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+        <p style="height: 1500px;">Lorem ipsum dolor sit, amet conse  elit. Delectus soluta vel nisi. Officiis expedita sit accusamus excepturi quos quae alias, eum dolor rerum eligendi de1sequatur. Accusamus dicta facere labore voluptatum facilis, quis quas iure saepe
+            repellat ullam praesentium perspic nostrum dolorem? Magnam perferendis vel recusandae ratione nulla, quo dignissimos
+            corporis tempore non deleniti solui natus, eum porro, suscipit at. Dignissimos illum beatae labore libero ullam voluptatum debitis, facilis ipsam corporis velit saepe amer uptio accusamus minus dolore error temporibus, atque sapiente. Voluptate exercitationem iusto distinctio. Architecto autem quod dicta magnam ab. Fuga dolore, doloremque aspernatur dolorem minima excepturi placeat ipsam debitis. Provident sit ad perspiciatis dolor numquam eum facilis mollitia incidunt ullam a ipsam sint natus amet pariatur laboriosam quasi, accusamus fuga excepturi, corrupti nam ut animi, consequuntur minima? Qui excepturi alias magni placeat architecto. Dolor quia exercitationem obcecati cupiditate nihil aliquam neque iste, in incidunt minus dignissimos, eum aspernatur quibusdam commodi perspiciatis officiis. Ex saepe omnis error! Illo inventore incidunt aliquam exercitationem dolore quia dolor nihil sit eaque maiores, rerum delectus eos molestiae ab nobis quibusdam eum ad qui. Eligendi libero quisquam, enim, repellendus harum animi culpa nihil vitae, natus blanditiis sequi omnis minima voluptate laboriosam odio. Quidem, consequatur aut soluta explicabo quam accusantium dignissimos fugit earum architecto, ab fugiat obcaecati placeat qui, repellat aliquid. Quibusdam doloribus magnam qui minima nisi doloremque vero, labore earum impedit natus saepe quasi! Praesentium odit inventore vero, eius numquam saepe, commodi, harum repudiandae cupiditate cum @ dolore atque porro minima quo soluta voluptatum ipsam assumenda ut illo labore suscipit excepturi expedita nesciunt. Ab ratione delectus rem maiores, voluptas optio qui debitis pariatur nisi atque excepturi ducimus eveniet deserunt quos itaque sed dolore cum 88
+            consectetur hic quam totam voluptatem ipsam? Fuga veritatis libero explicabo sed quisquam quas velit aperiam corrupti cumque ipsum.
+            Autem consequatur ullam commodi nulla consectetur, neque, atque aperiam quia amet, consequuntur aliquam possimus deserunt dolorum minima eveniet in? Doloribus perspiciatis magni voluptates tempora ratione, eius sapiente accusantium quibusdam quia animi!Voluptatum, sapiente. Quidem, quod repudiandae optio harum obcaecati libero perferendis repellat commodi dicta, dolore perspiciatis totam modi voluptatibus. Molestiae esse obcaecati ipsam distinctio ratione commodi. Assumenda doloribus perferendis tenetur eum. Nihil consequatur laudantium optio delectus cumque quae laboriosam eum quasi perferendis vero soluta nulla tempore iste, cum, id dolorem quam consectetur tenetur aliquam natus. Commodi omnis necessitatibus eos sequi? Quae error magni in omnis laudantium nihil, sunt modi autem. Minus, laboriosam. Praesentium harum, tempora vitae aliquid vero dolor omnis unde nesciunt at illum voluptatibus. Harum
+            nunreitatianam nini hia ranallandia numadito MALAKAR AKARAnTILIM mallitin ausaratl A alianid art araiident aiam narnint dintinatin</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
